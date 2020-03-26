@@ -7,6 +7,7 @@
 `sudo apt install -y build-essential cmake libusb-1.0-0-dev pkg-config libfftw3-dev htop curl wget git zsh python-pip virtualenv libtool autoconf pkg-config libxml2-dev vim ncdu libfftw3-dev`<br>
 `sudo apt install gqrx-sdr`<br>
 `sudo apt install gnuradio hackrf `<br>
+Reboot Linux!
 
 **Testing the HackRF**
 
