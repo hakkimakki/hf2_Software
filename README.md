@@ -39,12 +39,12 @@ To test try the following Example to build an BLE Packet Dumper
 <br><br>
 
 **PRBS Source for BER Testing**
-`git clone https://github.com/gr-vt/gr-mapper`
-`cd gr-mapper`
-`cmake ../`
-`make`
-`sudo make install`
-`sudo ldconfig`
-
+`git clone https://github.com/gr-vt/gr-mapper`<br>
+`cd gr-mapper`<br>
+`cmake ../`<br>
+`make`<br>
+`sudo make install`<br>
+`sudo ldconfig`<br>
+<br><br>
 
  
