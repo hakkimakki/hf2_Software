@@ -4,7 +4,7 @@
 
 ### Linux
 #### Ubuntu / Debian
-`sudo apt install -y build-essential cmake libusb-1.0-0-dev pkg-config libfftw3-dev htop curl wget git zsh python-pip virtualenv libtool autoconf pkg-config libxml2-dev vim ncdu libfftw3-dev`<br>
+`sudo apt install -y build-essential cmake libusb-1.0-0-dev pkg-config libfftw3-dev htop curl wget git zsh python-pip virtualenv libtool autoconf pkg-config libxml2-dev vim ncdu libfftw3-dev swig`<br>
 `sudo apt install gqrx-sdr`<br>
 `sudo apt install hackrf`<br>
 `sudo apt install gnuradio`<br>
@@ -37,5 +37,14 @@ To test try the following Example to build an FM Receiver
 To test try the following Example to build an BLE Packet Dumper
 * [ble_dump](https://github.com/drtyhlpr/ble_dump)
 <br><br>
+
+**PRBS Source for BER Testing**
+`git clone https://github.com/gr-vt/gr-mapper`
+`cd gr-mapper`
+`cmake ../`
+`make`
+`sudo make install`
+`sudo ldconfig`
+
 
  
