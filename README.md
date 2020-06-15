@@ -42,7 +42,7 @@ To test try the following Example to build an BLE Packet Dumper
 `git clone https://github.com/gr-vt/gr-mapper`<br>
 Go to file: `gr-mapper/python/prbs_sink_b.py` and edit the following lines:<br>
 line 25 `if self.nbits > 200000:`<br>
-add lines after line 27 `#print "NBits: %d \tNErrs: %d \tBER: %g"%(int(self.nbits), int(self.nerrs), self.nerrs/self.nbits)`<br>
+add lines after line 27 <br>
 `self.nerrs = 0`<br>
 `self.nbits = 0`<br>
 save the file and continue<br>
