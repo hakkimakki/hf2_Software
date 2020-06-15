@@ -38,10 +38,10 @@ To test try the following Example to build an BLE Packet Dumper
 * [ble_dump](https://github.com/drtyhlpr/ble_dump)
 <br><br>
 
-**PRBS Source for BER Testing**
+**PRBS Source for BER Testing**<br>
 `git clone https://github.com/gr-vt/gr-mapper`<br>
 `cd gr-mapper`<br>
-`cmake ../`<br>
+`cmake ./`<br>
 `make`<br>
 `sudo make install`<br>
 `sudo ldconfig`<br>
