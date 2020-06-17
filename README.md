@@ -1,6 +1,6 @@
 # hf2_Software
 
-## Instalation
+## Installation
 
 ### Linux
 #### Ubuntu / Debian
